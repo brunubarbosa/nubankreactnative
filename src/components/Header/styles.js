@@ -1,8 +1,8 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  flex: 1;
-  background: #8B10AE;
+  align-items: center;
+  padding: 40px 0 30px;
 `;
 
 export const Top = styled.View`
@@ -12,8 +12,8 @@ export const Top = styled.View`
 `;
 
 export const Logo = styled.Image`
-  width: 20;
-  height: 20;
+  width: 20px;
+  height: 20px;
 `;
 
 export const Title = styled.Text`

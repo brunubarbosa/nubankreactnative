@@ -8,10 +8,10 @@ export default function Header() {
   return (
     <Container>
       <Top>
-        <Logo surce={logo} />
-        <Title>test</Title>
+        <Logo source={logo} />
+        <Title>Bruno</Title>
       </Top>
-      <Icon name="keyboard-arrow-down" size={20} color="#fff" />
+      <Icon name="keyboard-arrow-down" size={20} color="#FFF" />
     </Container>
-  )
+  );
 }
